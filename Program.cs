@@ -15,9 +15,7 @@ namespace EnthusiasticMoose
             MooseSays("I really am enthusiastic");
 
             // Ask a question
-            // As a question
-            CanadaQuestion();
-            EnthusiasticQuestion();
+            Questions();
         }
 
         static void MooseSays(string message)
@@ -73,7 +71,7 @@ namespace EnthusiasticMoose
             }
         }
 
-        static void CanadaQuestion()
+        static void Questions()
         {
             bool isTrue = MooseAsks("Is Canada real?");
             if (isTrue)
@@ -84,10 +82,7 @@ namespace EnthusiasticMoose
             {
                 MooseSays("I  K N E W  I T !!!");
             }
-        }
 
-        static void EnthusiasticQuestion()
-        {
             bool isEnthusiastic = MooseAsks("Are you enthusiastic?");
             if (isEnthusiastic)
             {
@@ -97,10 +92,7 @@ namespace EnthusiasticMoose
             {
                 MooseSays("You should try it!");
             }
-        }
 
-        static void LoveCSharpQuestion()
-        {
             bool doesLoveCSharp = MooseAsks("Do you love C# yet?");
             if (doesLoveCSharp)
             {
@@ -110,10 +102,7 @@ namespace EnthusiasticMoose
             {
                 MooseSays("You will...oh, yes, you will...");
             }
-        }
 
-        static void SecretQuestion()
-        {
             bool isEverythingFine = MooseAsks("Do you want to know a secret?");
             if (isEverythingFine)
             {
